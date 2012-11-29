@@ -1,6 +1,6 @@
 <?php
 /**
- * Internationalization file for the MagicNoCache extension.
+ * Internationalization file for the messages of the MagicNoCache extension.
  *
  * @file MagicNoCache.i18n.php
  * @ingroup MagicNoCache
@@ -13,5 +13,12 @@ $messages = array();
  * @author Kimon Andreou
  */
 $messages['en'] = array(
-	'magicnocache_desc' => 'Adds a NOCACHE magic word to disable caching of certain pages',
+	'magicnocache-desc' => 'Adds a NOCACHE magic word to disable caching of certain pages',
+);
+
+/** Message documentation (Message documentation)
+ * @author Kghbln
+ */
+$messages['qqq'] = array(
+	'magicnocache-desc' => '{{desc}}',
 );
