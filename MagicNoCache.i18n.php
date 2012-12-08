@@ -13,7 +13,7 @@ $messages = array();
  * @author Kimon Andreou
  */
 $messages['en'] = array(
-	'magicnocache-desc' => 'Adds a NOCACHE magic word to disable caching of certain pages',
+	'magicnocache-desc' => 'Adds the <code><nowiki>__NOCACHE__</nowiki></code> magic word to disable caching of certain pages',
 );
 
 /** Message documentation (Message documentation)
@@ -22,3 +22,4 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'magicnocache-desc' => '{{desc}}',
 );
+
