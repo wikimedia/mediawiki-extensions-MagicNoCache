@@ -37,6 +37,13 @@ $messages['dsb'] = array(
 	'magicnocache-desc' => 'Pśidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, aby se pufrowanje wěstych bokow znjemóžniło',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'magicnocache-desc' => 'Añade la palabra mágica <code><nowiki>__NOCACHE__</nowiki></code>, que permite deshabilitar el almacenamiento en caché de ciertas páginas.',
+);
+
 /** Finnish (suomi)
  * @author Nike
  */
