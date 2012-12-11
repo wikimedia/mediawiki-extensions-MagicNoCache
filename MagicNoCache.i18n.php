@@ -72,6 +72,13 @@ $messages['hsb'] = array(
 	'magicnocache-desc' => 'Přidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, zo by so pufrowanje wěstych stronow znjemóžniło',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'magicnocache-desc' => 'Aggiunge la magic word <code><nowiki>__NOCACHE__</nowiki></code> per disabilitare la cache su determinate pagine',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
