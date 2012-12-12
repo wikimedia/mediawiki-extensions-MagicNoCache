@@ -46,9 +46,10 @@ $messages['es'] = array(
 
 /** Finnish (suomi)
  * @author Nike
+ * @author Stryn
  */
 $messages['fi'] = array(
-	'magicnocache-desc' => 'Lisää <code><nowiki>__NOCACHE__</nowiki></code>-taiksanan, jonka avulla välimuistin voi kytkeä pois päältä tietyillä sivuilla.',
+	'magicnocache-desc' => 'Lisää <code><nowiki>__NOCACHE__</nowiki></code>-taikasanan, jonka avulla välimuistin voi kytkeä pois päältä tietyillä sivuilla.',
 );
 
 /** French (français)
