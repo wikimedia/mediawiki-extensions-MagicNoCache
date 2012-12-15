@@ -18,9 +18,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Kghbln
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'magicnocache-desc' => '{{desc}}',
+	'magicnocache-desc' => '{{desc|name=Magic No Cache|url=http://www.mediawiki.org/wiki/Extension:MagicNoCache}}',
 );
 
 /** German (Deutsch)
