@@ -24,6 +24,13 @@ $messages['qqq'] = array(
 	'magicnocache-desc' => '{{desc|name=Magic No Cache|url=http://www.mediawiki.org/wiki/Extension:MagicNoCache}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'magicnocache-desc' => 'Amiesta la pallabra máxica <code><nowiki>__NOCACHE__</nowiki></code> pa desactivar la caché de ciertes páxines',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
