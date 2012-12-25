@@ -28,14 +28,15 @@ $messages['qqq'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'magicnocache-desc' => 'Amiesta la pallabra máxica <code><nowiki>__NOCACHE__</nowiki></code> pa desactivar la caché de ciertes páxines',
+	'magicnocache-desc' => 'Amiesta la pallabra máxica <code><nowiki>__NOCACHE__</nowiki></code> pa desactivar la caché de ciertes páxines', # Fuzzy
 );
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Metalhead64
  */
 $messages['de'] = array(
-	'magicnocache-desc' => 'Ermöglicht es, das Cachen einzelner Seiten mit dem magischen Wort <code><nowiki>__NOCACHE__</nowiki></code> zu deaktivieren',
+	'magicnocache-desc' => 'Ermöglicht es, das Cachen einer Seite mit dem magischen Wort <code><nowiki>__NOCACHE__</nowiki></code> zu deaktivieren',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -62,9 +63,10 @@ $messages['fi'] = array(
 
 /** French (français)
  * @author Crochet.david
+ * @author Gomoko
  */
 $messages['fr'] = array(
-	'magicnocache-desc' => 'Ajoute le mot magique <code><nowiki>__NOCACHE__</nowiki></code>, qui permet de désactiver la mise en cache certaines pages.',
+	'magicnocache-desc' => 'Ajoute le mot magique <code><nowiki>__NOCACHE__</nowiki></code>, qui permet de désactiver la mise en cache sur une page.',
 );
 
 /** Galician (galego)
@@ -92,7 +94,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'magicnocache-desc' => '特定のページでキャッシュを無効にするためのマジックワード <code><nowiki>__NOCACHE__</nowiki></code> を追加する',
+	'magicnocache-desc' => 'ページのキャッシュを無効にするマジックワード <code><nowiki>__NOCACHE__</nowiki></code> を追加する',
 );
 
 /** Korean (한국어)
@@ -106,7 +108,7 @@ $messages['ko'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'magicnocache-desc' => 'Го става волшебниот збор <code><nowiki>__NOCACHE__</nowiki></code> за да се оневозможи кеширање на извесни страници',
+	'magicnocache-desc' => 'Го става волшебниот збор <code><nowiki>__NOCACHE__</nowiki></code> за да се оневозможи кеширање на страницa',
 );
 
 /** Dutch (Nederlands)
@@ -114,6 +116,20 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'magicnocache-desc' => 'Voegt het magische woord <code><nowiki>__NOCACHE__</nowiki></code> toe om cachen uit te schakelen voor een pagina',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'magicnocache-desc' => 'A gionta la parola màgica <code><nowiki>__NOCACHE__</nowiki></code> për disabilité la memorisassion dzora na pagina',
+);
+
+/** Russian (русский)
+ * @author Pastakhov
+ */
+$messages['ru'] = array(
+	'magicnocache-desc' => 'Добавляет волшебное слово <code><nowiki>__NOCACHE__</nowiki></code> для отключения кэширования на странице', # Fuzzy
 );
 
 /** Ukrainian (українська)
