@@ -73,7 +73,7 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'magicnocache-desc' => 'Engade a palabra máxica <code><nowiki>__NOCACHE__</nowiki></code> para desactivar a caché de certas páxinas',
+	'magicnocache-desc' => 'Engade a palabra máxica <code><nowiki>__NOCACHE__</nowiki></code> para desactivar a caché dunha páxina',
 );
 
 /** Upper Sorbian (hornjoserbsce)
