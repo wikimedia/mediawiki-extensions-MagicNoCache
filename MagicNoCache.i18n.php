@@ -119,10 +119,11 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'magicnocache-desc' => 'A gionta la parola màgica <code><nowiki>__NOCACHE__</nowiki></code> për disabilité la memorisassion dzora na pagina',
+	'magicnocache-desc' => 'A gionta la paròla màgica <code><nowiki>__NOCACHE__</nowiki></code> për disabilité la memorisassion local dzora na pàgina',
 );
 
 /** Russian (русский)
