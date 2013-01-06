@@ -76,6 +76,13 @@ $messages['gl'] = array(
 	'magicnocache-desc' => 'Engade a palabra máxica <code><nowiki>__NOCACHE__</nowiki></code> para desactivar a caché dunha páxina',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'magicnocache-desc' => 'הוספת מילת הקסם <code><nowiki>__NOCACHE__</nowiki></code> שמכבה את המטמון בדף',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
