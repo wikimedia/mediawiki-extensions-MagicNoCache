@@ -133,6 +133,13 @@ $messages['pms'] = array(
 	'magicnocache-desc' => 'A gionta la paròla màgica <code><nowiki>__NOCACHE__</nowiki></code> për disabilité la memorisassion local dzora na pàgina',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'magicnocache-desc' => "Aggiunge 'a parola maggeche <code><nowiki>__NOCACHE__</nowiki></code> pe desabbilità 'a cache sus a sta pàgene",
+);
+
 /** Russian (русский)
  * @author Pastakhov
  */
