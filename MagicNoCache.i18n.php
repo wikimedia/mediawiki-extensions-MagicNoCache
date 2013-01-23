@@ -153,3 +153,10 @@ $messages['ru'] = array(
 $messages['uk'] = array(
 	'magicnocache-desc' => 'Додає магічне слово <code><nowiki>__NOCACHE__</nowiki></code>, яке дозволяє вимкнути кешування певних сторінок.',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'magicnocache-desc' => '在页面上增加<code><nowiki>__NOCACHE__</nowiki></code>魔术字来禁用缓存',
+);
