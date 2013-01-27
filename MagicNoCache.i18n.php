@@ -43,14 +43,14 @@ $messages['de'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'magicnocache-desc' => 'Pśidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, aby se pufrowanje wěstych bokow znjemóžniło',
+	'magicnocache-desc' => 'Pśidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, aby se pufrowanje wěstych bokow znjemóžniło', # Fuzzy
 );
 
 /** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
-	'magicnocache-desc' => 'Añade la palabra mágica <code><nowiki>__NOCACHE__</nowiki></code>, que permite deshabilitar el almacenamiento en caché de ciertas páginas.',
+	'magicnocache-desc' => 'Añade la palabra mágica <code><nowiki>__NOCACHE__</nowiki></code>, que permite deshabilitar el almacenamiento en caché de ciertas páginas.', # Fuzzy
 );
 
 /** Finnish (suomi)
@@ -58,7 +58,7 @@ $messages['es'] = array(
  * @author Stryn
  */
 $messages['fi'] = array(
-	'magicnocache-desc' => 'Lisää <code><nowiki>__NOCACHE__</nowiki></code>-taikasanan, jonka avulla välimuistin voi kytkeä pois päältä tietyillä sivuilla.',
+	'magicnocache-desc' => 'Lisää <code><nowiki>__NOCACHE__</nowiki></code>-taikasanan, jonka avulla välimuistin voi kytkeä pois päältä tietyillä sivuilla.', # Fuzzy
 );
 
 /** French (français)
@@ -87,14 +87,14 @@ $messages['he'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'magicnocache-desc' => 'Přidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, zo by so pufrowanje wěstych stronow znjemóžniło',
+	'magicnocache-desc' => 'Přidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, zo by so pufrowanje wěstych stronow znjemóžniło', # Fuzzy
 );
 
 /** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
-	'magicnocache-desc' => 'Aggiunge la magic word <code><nowiki>__NOCACHE__</nowiki></code> per disabilitare la cache su determinate pagine',
+	'magicnocache-desc' => 'Aggiunge la magic word <code><nowiki>__NOCACHE__</nowiki></code> per disabilitare la cache su determinate pagine', # Fuzzy
 );
 
 /** Japanese (日本語)
@@ -108,7 +108,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'magicnocache-desc' => '특정 문서의 캐시를 비활성화하기 위한 <code><nowiki>__NOCACHE__</nowiki></code> 매직 워드 추가',
+	'magicnocache-desc' => '특정 문서의 캐시를 비활성화하기 위한 <code><nowiki>__NOCACHE__</nowiki></code> 매직 워드 추가', # Fuzzy
 );
 
 /** Macedonian (македонски)
@@ -152,7 +152,7 @@ $messages['ru'] = array(
  * @author AS
  */
 $messages['uk'] = array(
-	'magicnocache-desc' => 'Додає магічне слово <code><nowiki>__NOCACHE__</nowiki></code>, яке дозволяє вимкнути кешування певних сторінок.',
+	'magicnocache-desc' => 'Додає магічне слово <code><nowiki>__NOCACHE__</nowiki></code>, яке дозволяє вимкнути кешування певних сторінок.', # Fuzzy
 );
 
 /** Simplified Chinese (中文（简体）‎)
