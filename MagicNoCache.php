@@ -57,11 +57,11 @@ class MagicNoCache
 		global $wgOut, $wgAction;
 		$mw = MagicWord::get('MAG_NOCACHE');
 
-	// if it is there, remove it and disable caching
-	if ( !in_array( $wgAction, array( 'submit', 'edit') ) && $mw->matchAndRemove($text) ) {
-		$parser->disableCache();
-		$wgOut->enableClientCache(false);
+		// if it is there, remove it and disable caching
+		if ( !in_array( $wgAction, array( 'submit', 'edit') ) && $mw->matchAndRemove($text) ) {
+			$parser->disableCache();
+			$wgOut->enableClientCache(false);
 		}
-	return true;
+		return true;
 	}
 }
