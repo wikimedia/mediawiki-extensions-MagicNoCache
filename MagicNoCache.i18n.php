@@ -111,6 +111,13 @@ $messages['ko'] = array(
 	'magicnocache-desc' => '특정 문서의 캐시를 비활성화하기 위한 <code><nowiki>__NOCACHE__</nowiki></code> 매직 워드 추가', # Fuzzy
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'magicnocache-desc' => "Setzt dat magescht Wuert <code><nowiki>__NOCACHE__</nowiki></code> derbäi fir d'Tëschespäichere op enger Säit ze desaktivéieren",
+);
+
 /** Minangkabau (Baso Minangkabau)
  * @author Iwan Novirion
  */
