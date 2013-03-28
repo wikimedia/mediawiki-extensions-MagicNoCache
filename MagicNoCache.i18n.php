@@ -94,7 +94,7 @@ $messages['hsb'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
-	'magicnocache-desc' => 'Aggiunge la magic word <code><nowiki>__NOCACHE__</nowiki></code> per disabilitare la cache su determinate pagine', # Fuzzy
+	'magicnocache-desc' => 'Aggiunge la parola magica <code><nowiki>__NOCACHE__</nowiki></code> per disabilitare la cache su una pagina',
 );
 
 /** Japanese (日本語)
