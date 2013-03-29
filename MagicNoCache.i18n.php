@@ -28,7 +28,7 @@ $messages['qqq'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'magicnocache-desc' => 'Amiesta la pallabra máxica <code><nowiki>__NOCACHE__</nowiki></code> pa desactivar la caché de ciertes páxines', # Fuzzy
+	'magicnocache-desc' => "Amiesta la pallabra máxica <code><nowiki>__NOCACHE__</nowiki></code> pa desactivar la caché d'una páxina",
 );
 
 /** German (Deutsch)
