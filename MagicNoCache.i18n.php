@@ -108,7 +108,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'magicnocache-desc' => '특정 문서의 캐시를 비활성화하기 위한 <code><nowiki>__NOCACHE__</nowiki></code> 매직 워드 추가', # Fuzzy
+	'magicnocache-desc' => '문서의 캐시를 비활성화하기 위한 <code><nowiki>__NOCACHE__</nowiki></code> 특수 명령을 추가합니다',
 );
 
 /** Colognian (Ripoarisch)
