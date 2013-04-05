@@ -171,9 +171,10 @@ $messages['ru'] = array(
 
 /** Ukrainian (українська)
  * @author AS
+ * @author Base
  */
 $messages['uk'] = array(
-	'magicnocache-desc' => 'Додає магічне слово <code><nowiki>__NOCACHE__</nowiki></code>, яке дозволяє вимкнути кешування певних сторінок.', # Fuzzy
+	'magicnocache-desc' => 'Додає магічне слово <code><nowiki>__NOCACHE__</nowiki></code>, яке дозволяє вимкнути кешування сторінки.',
 );
 
 /** Simplified Chinese (中文（简体）‎)
