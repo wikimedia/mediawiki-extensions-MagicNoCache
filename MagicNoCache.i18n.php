@@ -33,9 +33,10 @@ $messages['ast'] = array(
 
 /** Czech (česky)
  * @author Jezevec
+ * @author Mormegil
  */
 $messages['cs'] = array(
-	'magicnocache-desc' => 'Přidá magické slovo <code><nowiki>__NOCACHE__</nowiki></code>, chcete-li na stránce zakázat ukládání do mezipaměti',
+	'magicnocache-desc' => 'Přidává magické slovo <code><nowiki>__NOCACHE__</nowiki></code> pro vypnutí ukládání stránky do mezipaměti',
 );
 
 /** German (Deutsch)
