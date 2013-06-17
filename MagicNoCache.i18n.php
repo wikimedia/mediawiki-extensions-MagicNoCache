@@ -191,3 +191,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'magicnocache-desc' => '在页面上增加<code><nowiki>__NOCACHE__</nowiki></code>魔术字来禁用缓存',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'magicnocache-desc' => '於頁面上加入<code><nowiki>__NOCACHE__</nowiki></code>魔術字以禁止使用緩存',
+);
