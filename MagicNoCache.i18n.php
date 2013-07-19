@@ -154,6 +154,13 @@ $messages['nl'] = array(
 	'magicnocache-desc' => 'Voegt het magische woord <code><nowiki>__NOCACHE__</nowiki></code> toe om cachen uit te schakelen voor een pagina',
 );
 
+/** Polish (polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'magicnocache-desc' => 'Dodaje magiczne słowo <code><nowiki>__NOCACHE__</nowiki></code> aby wyłączyć pamięć podręczną dla określonej strony',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
