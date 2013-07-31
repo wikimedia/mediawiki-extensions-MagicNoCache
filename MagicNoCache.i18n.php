@@ -54,6 +54,13 @@ $messages['dsb'] = array(
 	'magicnocache-desc' => 'Pśidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, aby se pufrowanje wěstych bokow znjemóžniło', # Fuzzy
 );
 
+/** Greek (Ελληνικά)
+ * @author Protnet
+ */
+$messages['el'] = array(
+	'magicnocache-desc' => 'Προσθέτει τη μαγική λέξη <code><nowiki>__NOCACHE__</nowiki></code> που απενεργοποιεί την προσωρινή μνήμη σε μια σελίδα',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
