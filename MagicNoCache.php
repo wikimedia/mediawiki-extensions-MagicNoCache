@@ -24,11 +24,11 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'MagicNoCache',
-	'version'        => '1.2.1',
+	'version'        => '1.2.2',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:MagicNoCache',
 	'author'         => array(
 		'Kimon Andreou',
-		'Pavel Astakhov',
+		'[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]',
 		'...'
 		),
 	'descriptionmsg' => 'magicnocache-desc'
@@ -41,27 +41,15 @@ $dir = __DIR__;
 $wgExtensionMessagesFiles['MagicNoCache'] = $dir . '/MagicNoCache.i18n.php';
 $wgExtensionMessagesFiles['MagicNoCacheMagic'] = $dir . '/MagicNoCache.i18n.magic.php';
 
-// Register hooks
-$wgHooks['ParserBeforeTidy'][] = 'MagicNoCache::onParserBeforeTidy';
+// Check to see if we have the magic word in the article
+$wgHooks['InternalParseBeforeLinks'][] = function( &$parser, &$text ) {
+	global $wgOut, $wgAction;
+	$mw = MagicWord::get('MAG_NOCACHE');
 
-// Create extension class
-class MagicNoCache
-{
-	/**
-	 * Check to see if we have the magic word in the article
-	 * @global OutputPage $wgOut
-	 * @global array $wgAction
-	 * @return boolean
-	 */
-	public static function onParserBeforeTidy(&$parser, &$text) {
-		global $wgOut, $wgAction;
-		$mw = MagicWord::get('MAG_NOCACHE');
-
-		// if it is there, remove it and disable caching
-		if ( !in_array( $wgAction, array( 'submit', 'edit') ) && $mw->matchAndRemove($text) ) {
-			$parser->disableCache();
-			$wgOut->enableClientCache(false);
-		}
-		return true;
+	// if it is there, remove it and disable caching
+	if ( !in_array( $wgAction, array( 'submit', 'edit') ) && $mw->matchAndRemove($text) ) {
+		$parser->disableCache();
+		$wgOut->enableClientCache(false);
 	}
-}
+	return true;
+};
