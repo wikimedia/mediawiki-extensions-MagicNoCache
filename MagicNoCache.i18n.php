@@ -176,6 +176,13 @@ $messages['pms'] = array(
 	'magicnocache-desc' => 'A gionta la paròla màgica <code><nowiki>__NOCACHE__</nowiki></code> për disabilité la memorisassion local dzora na pàgina',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'magicnocache-desc' => 'Adiciona a palavra mágica <code><nowiki>__NOCACHE__</nowiki></code> para desabilitar o cache numa página',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
