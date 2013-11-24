@@ -63,9 +63,10 @@ $messages['el'] = array(
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Fitoschido
  */
 $messages['es'] = array(
-	'magicnocache-desc' => 'Añade la palabra mágica <code><nowiki>__NOCACHE__</nowiki></code>, que permite deshabilitar el almacenamiento en caché de ciertas páginas.', # Fuzzy
+	'magicnocache-desc' => 'Añade la palabra mágica <code><nowiki>__NOCACHE__</nowiki></code> que permite desactivar el almacenamiento en caché de una página',
 );
 
 /** Finnish (suomi)
