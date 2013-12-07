@@ -31,7 +31,7 @@ $messages['ast'] = array(
 	'magicnocache-desc' => "Amiesta la pallabra máxica <code><nowiki>__NOCACHE__</nowiki></code> pa desactivar la caché d'una páxina",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Jezevec
  * @author Mormegil
  */
