@@ -139,7 +139,7 @@ $messages['ksh'] = array(
  * @author Soued031
  */
 $messages['lb'] = array(
-	'magicnocache-desc' => "Setzt dat magescht Wuert <code><nowiki>__NOCACHE__</nowiki></code> dobäi fir d'Tëschespäichere op enger Säit ze desaktivéieren",
+	'magicnocache-desc' => "Setzt dat magescht Wuert <code><nowiki>__NOCACHE__</nowiki></code> derbäi fir d'Tëschespäichere op enger Säit ze desaktivéieren",
 );
 
 /** Minangkabau (Baso Minangkabau)
