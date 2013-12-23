@@ -51,7 +51,7 @@ $messages['de'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'magicnocache-desc' => 'Pśidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, aby se pufrowanje wěstych bokow znjemóžniło', # Fuzzy
+	'magicnocache-desc' => 'Pśidawa magiske słowo <code><nowiki>__NOCACHE__</nowiki></code>, aby se pufrowanje na boku znjemóžniło',
 );
 
 /** Greek (Ελληνικά)
