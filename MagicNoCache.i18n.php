@@ -69,6 +69,13 @@ $messages['es'] = array(
 	'magicnocache-desc' => 'Añade la palabra mágica <code><nowiki>__NOCACHE__</nowiki></code> que permite desactivar el almacenamiento en caché de una página',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'magicnocache-desc' => 'افزودن  <code><nowiki>__NOCACHE__</nowiki></code> کلمهٔ جادویی برای غیرفعال کردن ذخیره در یک صفحه',
+);
+
 /** Finnish (suomi)
  * @author Nike
  * @author Stryn
