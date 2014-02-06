@@ -160,7 +160,7 @@ $messages['min'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'magicnocache-desc' => 'Го става волшебниот збор <code><nowiki>__NOCACHE__</nowiki></code> за да се оневозможи кеширање на страницa',
+	'magicnocache-desc' => 'Го става волшебниот збор <code><nowiki>__NOCACHE__</nowiki></code> за да се оневозможи меѓускладирање на страницa',
 );
 
 /** Dutch (Nederlands)
