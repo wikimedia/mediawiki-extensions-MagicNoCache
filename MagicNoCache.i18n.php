@@ -200,11 +200,12 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author Base
  * @author DCamer
  * @author Pastakhov
  */
 $messages['ru'] = array(
-	'magicnocache-desc' => 'обавляет волшебное слово <code><nowiki>__NOCACHE__</nowiki></code> для отключения кэширования на странице',
+	'magicnocache-desc' => 'Добавляет волшебное слово <code><nowiki>__NOCACHE__</nowiki></code> для отключения кэширования на странице',
 );
 
 /** Ukrainian (українська)
