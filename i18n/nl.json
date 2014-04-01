@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "magicnocache-desc": "Voegt het magische woord <code><nowiki>__NOCACHE__</nowiki></code> toe om cachen uit te schakelen voor een pagina"
+}

@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jezevec",
+            "Mormegil"
+        ]
+    },
+    "magicnocache-desc": "Přidává magické slovo <code><nowiki>__NOCACHE__</nowiki></code> pro vypnutí ukládání stránky do mezipaměti"
+}

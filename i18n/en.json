@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kimon Andreou"
+        ]
+    },
+    "magicnocache-desc": "Adds the <code><nowiki>__NOCACHE__</nowiki></code> magic word to disable caching on a page"
+}

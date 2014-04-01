@@ -24,7 +24,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'MagicNoCache',
-	'version'        => '1.2.2',
+	'version'        => '1.3.0',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:MagicNoCache',
 	'author'         => array(
 		'Kimon Andreou',
@@ -38,6 +38,7 @@ $wgExtensionCredits['parserhook'][] = array(
 $dir = __DIR__;
 
 // Allow translations for this extension
+$wgMessagesDirs['MagicNoCache'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['MagicNoCache'] = $dir . '/MagicNoCache.i18n.php';
 $wgExtensionMessagesFiles['MagicNoCacheMagic'] = $dir . '/MagicNoCache.i18n.magic.php';
 

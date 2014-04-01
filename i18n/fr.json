@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Crochet.david",
+            "Gomoko"
+        ]
+    },
+    "magicnocache-desc": "Ajoute le mot magique <code><nowiki>__NOCACHE__</nowiki></code>, qui permet de désactiver la mise en cache sur une page."
+}

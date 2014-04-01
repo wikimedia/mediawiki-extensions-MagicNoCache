@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Yfdyh000"
+        ]
+    },
+    "magicnocache-desc": "在页面上增加<code><nowiki>__NOCACHE__</nowiki></code>魔术字来禁用缓存"
+}
