@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ainali"
+        ]
+    },
+    "magicnocache-desc": "Lägger till det magiska ordet <code><nowiki>__NOCACHE__</nowiki></code> för att förhindra cachelagring av en sida"
+}
