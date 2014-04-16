@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "AS",
-            "Base"
-        ]
-    },
-    "magicnocache-desc": "Додає магічне слово <code><nowiki>__NOCACHE__</nowiki></code>, яке дозволяє вимкнути кешування сторінки."
+	"@metadata": {
+		"authors": [
+			"AS",
+			"Base"
+		]
+	},
+	"magicnocache-desc": "Додає магічне слово <code><nowiki>__NOCACHE__</nowiki></code>, яке дозволяє вимкнути кешування сторінки."
 }

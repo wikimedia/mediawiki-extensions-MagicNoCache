@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Base",
-            "DCamer",
-            "Pastakhov"
-        ]
-    },
-    "magicnocache-desc": "Добавляет волшебное слово <code><nowiki>__NOCACHE__</nowiki></code> для отключения кэширования на странице"
+	"@metadata": {
+		"authors": [
+			"Base",
+			"DCamer",
+			"Pastakhov"
+		]
+	},
+	"magicnocache-desc": "Добавляет волшебное слово <code><nowiki>__NOCACHE__</nowiki></code> для отключения кэширования на странице"
 }

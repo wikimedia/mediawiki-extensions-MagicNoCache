@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Protnet"
-        ]
-    },
-    "magicnocache-desc": "Προσθέτει τη μαγική λέξη <code><nowiki>__NOCACHE__</nowiki></code> που απενεργοποιεί την προσωρινή μνήμη σε μια σελίδα"
+	"@metadata": {
+		"authors": [
+			"Protnet"
+		]
+	},
+	"magicnocache-desc": "Προσθέτει τη μαγική λέξη <code><nowiki>__NOCACHE__</nowiki></code> που απενεργοποιεί την προσωρινή μνήμη σε μια σελίδα"
 }

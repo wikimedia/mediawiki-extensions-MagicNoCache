@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin",
-            "Fitoschido"
-        ]
-    },
-    "magicnocache-desc": "Añade la palabra mágica <code><nowiki>__NOCACHE__</nowiki></code> que permite desactivar el almacenamiento en caché de una página"
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Fitoschido"
+		]
+	},
+	"magicnocache-desc": "Añade la palabra mágica <code><nowiki>__NOCACHE__</nowiki></code> que permite desactivar el almacenamiento en caché de una página"
 }

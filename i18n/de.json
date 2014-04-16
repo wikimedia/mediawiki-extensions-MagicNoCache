@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln",
-            "Metalhead64"
-        ]
-    },
-    "magicnocache-desc": "Ermöglicht es, das Cachen einer Seite mit dem magischen Wort <code><nowiki>__NOCACHE__</nowiki></code> zu deaktivieren"
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"magicnocache-desc": "Ermöglicht es, das Cachen einer Seite mit dem magischen Wort <code><nowiki>__NOCACHE__</nowiki></code> zu deaktivieren"
 }

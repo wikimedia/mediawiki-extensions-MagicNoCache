@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "magicnocache-desc": "ページのキャッシュを無効にするマジックワード <code><nowiki>__NOCACHE__</nowiki></code> を追加する"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"magicnocache-desc": "ページのキャッシュを無効にするマジックワード <code><nowiki>__NOCACHE__</nowiki></code> を追加する"
 }

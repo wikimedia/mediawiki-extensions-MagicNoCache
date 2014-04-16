@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xuacu"
-        ]
-    },
-    "magicnocache-desc": "Amiesta la pallabra máxica <code><nowiki>__NOCACHE__</nowiki></code> pa desactivar la caché d'una páxina"
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"magicnocache-desc": "Amiesta la pallabra máxica <code><nowiki>__NOCACHE__</nowiki></code> pa desactivar la caché d'una páxina"
 }
