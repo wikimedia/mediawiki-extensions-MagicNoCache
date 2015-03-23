@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Kghbln",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"magicnocache-desc": "{{desc|name=Magic No Cache|url=http://www.mediawiki.org/wiki/Extension:MagicNoCache}}"
+	"magicnocache-desc": "{{desc|name=Magic No Cache|url=https://www.mediawiki.org/wiki/Extension:MagicNoCache}}"
 }
