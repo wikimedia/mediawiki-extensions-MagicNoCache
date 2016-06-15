@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Stryn"
+			"Stryn",
+			"01miki10"
 		]
 	},
-	"magicnocache-desc": "Lisää <code><nowiki>__NOCACHE__</nowiki></code>-taikasanan, jonka avulla välimuistin voi kytkeä pois päältä tietyillä sivuilla."
+	"magicnocache-desc": "Lisää <code><nowiki>__NOCACHE__</nowiki></code>-taikasanan, jonka avulla välimuistin voi kytkeä pois päältä sivulla."
 }
