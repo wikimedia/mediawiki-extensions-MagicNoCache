@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"magicnocache-desc": "Legger til det magiske ordet <code><nowiki>__NOCACHE__</nowiki></code> for å slå av mellomlagring av en side"
+}
