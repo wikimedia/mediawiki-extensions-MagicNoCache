@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"magicnocache-desc": "Acrescenta a palavra mágica <code><nowiki>__NOCACHE__</nowiki></code> para desativar o armazenamento de uma página na ''cache''"
+}
