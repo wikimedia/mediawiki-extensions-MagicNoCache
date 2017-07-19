@@ -22,11 +22,11 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 // Register this extension on Special:Version
 $wgExtensionCredits['parserhook'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'MagicNoCache',
-	'version'        => '1.3.1',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:MagicNoCache',
-	'author'         => array(
+	'path' => __FILE__,
+	'name' => 'MagicNoCache',
+	'version' => '1.4.0',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:MagicNoCache',
+	'author' => array(
 		'Kimon Andreou',
 		'[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]',
 		'...'
@@ -37,7 +37,6 @@ $wgExtensionCredits['parserhook'][] = array(
 
 // Allow translations for this extension
 $wgMessagesDirs['MagicNoCache'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['MagicNoCache'] = __DIR__ . '/MagicNoCache.i18n.php';
 $wgExtensionMessagesFiles['MagicNoCacheMagic'] = __DIR__ . '/MagicNoCache.i18n.magic.php';
 
 // Check to see if we have the magic word in the article
