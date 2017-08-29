@@ -1,0 +1,28 @@
+{
+	"name": "MagicNoCache",
+	"version": "1.5.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Kimon Kimon Andreou]",
+		"[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]",
+		"..."
+	],
+	"type": "parserhook",
+	"url": "https://www.mediawiki.org/wiki/Extension:MagicNoCache",
+	"descriptionmsg": "magicnocache-desc",
+	"license-name": "GPL-2.0+",
+	"AutoloadClasses": {
+		"MagicNoCacheHooks": "MagicNoCache.hooks.php"
+	},
+	"MessagesDirs": {
+		"MagicNoCache": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MagicNoCacheMagic": "MagicNoCache.i18n.magic.php"
+	},
+	"Hooks": {
+		"InternalParseBeforeLinks": "MagicNoCacheHooks::magicwordCheck"
+	},
+	"manifest_version": 1
+}

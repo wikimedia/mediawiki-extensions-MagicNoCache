@@ -15,39 +15,14 @@
  * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-// Check to see if we are being called as an extension or directly
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This file is an extension to MediaWiki and thus not a valid entry point.' );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'MagicNoCache' );
+	$wgMessageDirs['MagicNoCache'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for MagicNoCache extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+} else {
+	die( 'This version of the MagicNoCache extension requires MediaWiki 1.29+' );
 }
-
-// Register this extension on Special:Version
-$wgExtensionCredits['parserhook'][] = array(
-	'path' => __FILE__,
-	'name' => 'MagicNoCache',
-	'version' => '1.4.0',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:MagicNoCache',
-	'author' => array(
-		'Kimon Andreou',
-		'[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]',
-		'...'
-		),
-	'descriptionmsg' => 'magicnocache-desc',
-	'license-name' => 'GPL-2.0+'
-);
-
-// Allow translations for this extension
-$wgMessagesDirs['MagicNoCache'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['MagicNoCacheMagic'] = __DIR__ . '/MagicNoCache.i18n.magic.php';
-
-// Check to see if we have the magic word in the article
-$wgHooks['InternalParseBeforeLinks'][] = function( &$parser, &$text ) {
-	global $wgOut, $wgAction;
-	$mw = MagicWord::get( 'MAG_NOCACHE' );
-
-	// if it is there, remove it and disable caching
-	if ( !in_array( $wgAction, array( 'submit', 'edit') ) && $mw->matchAndRemove($text) ) {
-		$parser->disableCache();
-		$wgOut->enableClientCache(false);
-	}
-	return true;
-};
