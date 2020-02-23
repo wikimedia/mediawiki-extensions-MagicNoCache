@@ -14,7 +14,7 @@
 	"descriptionmsg": "magicnocache-desc",
 	"license-name": "GPL-2.0-or-later",
 	"AutoloadClasses": {
-		"MagicNoCacheHooks": "MagicNoCache.hooks.php"
+		"MagicNoCacheHooks": "src/MagicNoCacheHooks.php"
 	},
 	"MessagesDirs": {
 		"MagicNoCache": [
