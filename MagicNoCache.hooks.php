@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 class MagicNoCacheHooks {
 
 	/**
@@ -10,7 +13,9 @@ class MagicNoCacheHooks {
 	 */
 	public static function magicwordCheck ( Parser $parser, &$text ) {
 		global $wgOut, $wgAction;
-		$mw = MagicWord::get( 'MAG_NOCACHE' );
+
+		$mw = MediaWikiServices::getInstance()->getMagicWordFactory()->
+			get( 'MAG_NOCACHE' );
 
 		// if it is there, remove it and disable caching
 		if ( !in_array( $wgAction, ['submit', 'edit'] ) && $mw->matchAndRemove( $text ) ) {
