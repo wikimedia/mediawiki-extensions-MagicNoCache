@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Woytecr"
+			"Woytecr",
+			"SemanticPioneer"
 		]
 	},
-	"magicnocache-desc": "Dodaje magiczne słowo <code><nowiki>__NOCACHE__</nowiki></code> aby wyłączyć pamięć podręczną dla określonej strony"
+	"magicnocache-desc": "Dodaje magiczne słowo <code><nowiki>__NOCACHE__</nowiki></code>, aby wyłączyć pamięć podręczną dla określonej strony"
 }
