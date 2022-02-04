@@ -20,7 +20,7 @@ class MagicNoCacheHooks {
 		// if it is there, remove it and disable caching
 		if ( !in_array( $wgAction, [ 'submit', 'edit' ] ) && $mw->matchAndRemove( $text ) ) {
 			$parser->getOutput()->updateCacheExpiry( 0 );
-			$wgOut->enableClientCache( false );
+			$wgOut->disableClientCache();
 		}
 	}
 
