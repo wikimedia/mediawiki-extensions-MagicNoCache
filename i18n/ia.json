@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"magicnocache-desc": "Adde le parola magic <code><nowiki>__NOCACHE__</nowiki></code> pro disactivar le cache sur un pagina"
+}
